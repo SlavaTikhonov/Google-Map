@@ -1,4 +1,5 @@
 {
+  "homepage": "http://SlavaTikhonov.github.io/Google-Map",
   "name": "google-maps-ts",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +18,8 @@
   },
   "scripts": {
     "start": "webpack serve --env port=3000",
+    "predeploy": "npm run build:prod",
+    "deploy": "gh-pages -d build",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development"
   },
