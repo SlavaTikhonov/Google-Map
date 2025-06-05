@@ -1,5 +1,5 @@
 {
-  "homepage": "http://SlavaTikhonov.github.io/Google-Map",
+  "homepage": "https://SlavaTikhonov.github.io/Google-Map",
   "name": "google-maps-ts",
   "version": "0.1.0",
   "private": true,
@@ -47,6 +47,7 @@
     "@types/sass": "^1.45.0",
     "@types/webpack-dev-server": "^4.7.2",
     "css-loader": "^6.8.1",
+    "gh-pages": "^6.0.0",
     "html-webpack-plugin": "^5.5.3",
     "sass": "^1.69.3",
     "sass-loader": "^13.3.2",
